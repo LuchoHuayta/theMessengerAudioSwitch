@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+}
+
+#video8 {
+    display: none;
+}
+
+.buttonContainer {
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+    width: 960px;
+    height: 55px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#imgTitle {
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    width: 960px;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    font-family: 'VT323', monospace;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: azure;
+    border: silver 2px solid;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: aliceblue;
+    border-color: gray;
+}
